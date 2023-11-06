@@ -1,0 +1,13 @@
+spring:
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgresql://localhost:5432/tg_statistic_bot
+        username: work
+        password: work
+    jpa:
+        open-in-view: false
+        show-sql: true
+
+bot:
+    token: 6715560329:AAGmqWl4fyQYra8ZCgg1lJmCt7i2BrlHSzI
+    username: Statistic Bot
